@@ -1,6 +1,6 @@
-export import { LitElement } from 'lit-element';
+import { LitElement } from 'lit-element';
 
-export class LitElementBase extends LitElement {
+export class LitElementWrapper extends LitElement {
 
   /**
    * Lit element wrapper constructor.
