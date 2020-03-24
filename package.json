@@ -1,0 +1,22 @@
+{
+  "name": "polystack",
+  "version": "1.0.0",
+  "description": "PolyStack is the library which will change the way we used to work with polymer. Features method sepration, mixins and event listener.",
+  "author": "Sagar Yonjan",
+  "private": false,
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagaryonjan/polystack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sagaryonjan/polystack/issues"
+  },
+  "keywords": [
+    "polymer",
+    "helper",
+    "polystack",
+    "mixins"
+  ] 
+}
