@@ -95,13 +95,13 @@ export const onClickHideError = ({setState}) => {
     }, true);
 }
 ```
+After we add this method in mixin we can access it in our own object.
 
-This will automatically update fullName of the object.
+
 ```bash
  <input type="text" @input="${(e) => this.model('fullName', e, true)}">
 ```
-
-After we add this method in mixin we can access it in our own object.
+This will automatically update fullName of the object.
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
