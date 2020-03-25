@@ -14,8 +14,11 @@ lit-elment
 
 # Install
 ``` bash
-npm install polystack
+npm i polystack
 ```
+
+## Demo
+https://github.com/sagaryonjan/polystack-demo
 
 
 ## Seprate method with component.
@@ -108,14 +111,14 @@ After we add this method in mixin we can access it in our own object.
 
 ### Mixins
 
-Every date shared in this mixin array can be accessible from this object.
+Every data or methods shared in this mixin array can be accessible from this object.
 ```bash
   mixins() {
     return [];
   }
 ```
 
-Every method register in this object will be accessible from this object.
+Every methods register in this object will be accessible from this object.
 ```bash
 methods() {
   return {};
