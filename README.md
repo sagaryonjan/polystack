@@ -4,13 +4,19 @@ PolyStack is the library which will change the way we used to work with polymer.
 #Features 
 - Seprate method with component.
 - mixins
-- event bus. - Comming Soon.
+- event bus.
 - helpers - Comming Soon.
+
+# Requirements
+``` bash
+lit-elment
+```
 
 # Install
 ``` bash
 npm install polystack
 ```
+
 
 ## Seprate method with component.
 
@@ -97,6 +103,24 @@ export const onClickHideError = ({setState}) => {
 ```
 After we add this method in mixin we can access it in our own object.
 
+
+## Lit Element Wrapper 
+
+### Mixins
+
+Every date shared in this mixin array can be accessible from this object.
+```bash
+  mixins() {
+    return [];
+  }
+```
+
+Every method register in this object will be accessible from this object.
+```bash
+methods() {
+  return {};
+}
+```
 
 ```bash
  <input type="text" @input="${(e) => this.model('fullName', e, true)}">
