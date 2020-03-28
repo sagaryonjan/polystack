@@ -1,21 +1,22 @@
 # PolyStack
-PolyStack is the library which will change the way we used to work with polymer. 
+Polystack is the library which extends LitElement to provide API's like:-
 
-#Features 
-- Seprate method with component.
+- methods
 - mixins
-- event bus.
-- helpers - Comming Soon.
+- eventbus
 
-# Requirements
+## Requirements
 ``` bash
 lit-elment
 ```
 
-# Install
+## Install
 ``` bash
 npm i polystack
 ```
+## Blogs
+[Separate polymer component and its actions using polystack](https://www.sagaryonjan.com.np/2020/03/27/separate-polymer-component-and-its-actions-using-polystack/)
+
 
 ## Demo
 https://github.com/sagaryonjan/polystack-demo
